@@ -21,8 +21,10 @@ module.exports = function account() {
     account.balance += signupBonus
     output['New balance after signup bonus is '] = account.balance
     account.balance += deposit
+    
   }
 
+  
   output['Account before opening'] = 'customerAccount'
 
   openAccount(customerAccount)
