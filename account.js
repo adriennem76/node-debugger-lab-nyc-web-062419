@@ -30,4 +30,5 @@ module.exports = function account() {
   output['Account after opening'] = customerAccount
   return output
 }
+
 account()
