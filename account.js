@@ -18,7 +18,7 @@ module.exports = function account() {
     deposit = 1000
 
   var openAccount = function(account, deposit, signupBonus) {
-    debugger
+    
     account.balance += signupBonus
     output['New balance after signup bonus is '] = account.balance
     account.balance += deposit
@@ -28,7 +28,7 @@ module.exports = function account() {
   
   output['Account before opening'] = customerAccount
 
-  openAccount(customerAccount)
+  openAccount(customerAccount, deposit, signupBonus)
   setAccountType()
   output['Account after opening'] = customerAccount
   return output
