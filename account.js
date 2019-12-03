@@ -34,4 +34,4 @@ module.exports = function account() {
   return output
 }
 
-account()
+
